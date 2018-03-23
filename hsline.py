@@ -7,10 +7,15 @@
 #   meta decks
 #   deck matchup winrates (in a dictionary, tuple key winrate value)
 #   can input deck matchup archetype winrates (eg fatigue warrior vs control 70% wr)
+#   deck distribution
+#   lineup distribution
 #   format(no. of games/bans)
 #   last hero standing or conquest
 # OUTPUT:
 #   highest winrate lineup + ban
+
+import numpy
+
 
 META_DECKS = [
     "Jade Druid",
